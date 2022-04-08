@@ -24,3 +24,10 @@ span
   font-size: 18px;
   font-style: normal;
 }
+
+canvas
+{
+  margin-top: 60px;
+  border-color: steelblue;
+  border-style: dashed;
+}

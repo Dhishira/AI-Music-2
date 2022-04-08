@@ -9,7 +9,7 @@ function preload()
 
 function setup()
 {
-  canvas = createCanvas(600,385);
+  canvas = createCanvas(600,325);
   canvas.center();
 
   video = createCapture(VIDEO);
@@ -18,5 +18,5 @@ function setup()
 
 function draw()
 {
-  image(video,0,0,600,385);
+  image(video,0,0,600,325);
 }
